@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forms</title>
+</head>
+<body>
+<h1>This my first Html forms</h1>
+   <form>
+       <p>UserName:
+           <input type="text" name="UserName" placeholder="enter your userName">
+       </p>
+       <p>
+           PassWord:
+           <input type="password" placeholder="enter your password">
+       </p>
+
+       <p>
+           what did you think of this trip
+             </p>
+       <label>
+           <textarea cols="30" rows="10"  placeholder="enter your commernt"> </textarea>
+       </label>
+       <br>
+       <p>Please input your favorite food </p>
+       <input type="radio" name="food" value="Burgur">Burgur
+       <input type="radio" name="food" value="Kabab" checked>Kabab
+       <input type="radio" name="food" value="Salad">Salad
+          <br>
+       <input type="date" >
+       <br>
+       <input type="datetime-local">
+       <br>
+       <p>please upload your resume</p>
+       <input type="file">
+       <p>please your favoriete course(s)       </p>
+       <br>
+       <label for="Java">
+       <input type="checkbox" name="courses" value="java" id="Java">Java
+       </label>
+       <input type="checkbox" name="courses" value="DS">DS
+       <input type="checkbox" name="courses" value="UI">UI
+       <input type="checkbox" name="courses" value="SoftSkill">SoftSkill
+       <br>
+       <p>Please select the courses</p>
+        <select>
+            <option value="" disabled selected>select a course </option>
+            <option value="Jd">Java developer</option>
+            <option value="st">Java Sdet</option>
+            <option value="cs">cyber security</option>
+            <option value="UI">UI developer</option>
+        </select>
+       <input type="submit" value="submit">
+
+
+   </form>
+
+</body>
+</html>
